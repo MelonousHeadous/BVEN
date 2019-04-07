@@ -1,0 +1,6 @@
+usr/local/bin/bitcoinvenezuela-qt usr/bin
+share/pixmaps/bitcoinvenezuela32.xpm usr/share/pixmaps
+share/pixmaps/bitcoinvenezuela16.xpm usr/share/pixmaps
+share/pixmaps/bitcoinvenezuela128.png usr/share/pixmaps
+debian/bitcoinvenezuela-qt.desktop usr/share/applications
+debian/bitcoinvenezuela-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,22 @@
+[Unit]
+Description=BitcoinVenezuela's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitcoinvenezuelacore
+Group=bitcoinvenezuelacore
+
+Type=forking
+PIDFile=/var/lib/bitcoinvenezuelad/bitcoinvenezuelad.pid
+ExecStart=/usr/bin/bitcoinvenezuelad -daemon -pid=/var/lib/bitcoinvenezuelad/bitcoinvenezuelad.pid \
+-conf=/etc/bitcoinvenezuelacore/bitcoinvenezuela.conf -datadir=/var/lib/bitcoinvenezuelad -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

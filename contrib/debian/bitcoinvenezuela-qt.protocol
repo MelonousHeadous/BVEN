@@ -1,0 +1,11 @@
+[Protocol]
+exec=bitcoinvenezuela-qt '%u'
+protocol=bitcoinvenezuela
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

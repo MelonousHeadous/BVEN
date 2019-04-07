@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BitcoinVenezuela Core
+Comment=BitcoinVenezuela P2P Cryptocurrency
+Comment[de]=Verbinde mit dem BitcoinVenezuela peer-to-peer Netzwerk
+Comment[fr]=BitcoinVenezuela, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BitcoinVenezuela, eşten eşe kriptografik sanal para birimi
+Exec=bitcoinvenezuela-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoinvenezuela128
+MimeType=x-scheme-handler/bitcoinvenezuela;
+Categories=Office;Finance;
